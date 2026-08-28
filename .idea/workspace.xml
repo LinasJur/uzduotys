@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ Setingsai padaryti askirai">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ Pridetas urls i uzduotys aplankala">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LinasJur"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/LinasJur/uzduotys.git",
@@ -30,61 +37,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0132040973529224" />
-      <entry key="MS500" value="1.6625015733892812" />
-      <entry key="S2" value="3.6496043705572627" />
-      <entry key="S5" value="5.431653310041332" />
-      <entry key="S10" value="6.496110815524193" />
-      <entry key="S30" value="7.438012194818608" />
-      <entry key="S60" value="7.741245440557761" />
-      <entry key="M2" value="8.367523494899505" />
-      <entry key="M5" value="10.78996673912132" />
-      <entry key="M10" value="13.029715932769921" />
-      <entry key="M15" value="14.10928256109131" />
-      <entry key="M30" value="15.41647015080736" />
-      <entry key="H1" value="16.170261935624303" />
-      <entry key="H2" value="16.57517142228179" />
-      <entry key="H4" value="16.785035025091418" />
-      <entry key="D1" value="16.963812960230122" />
-      <entry key="W1" value="16.994821548021594" />
+      <entry key="MS100" value="1.3736313800847757" />
+      <entry key="MS500" value="3.484547175176459" />
+      <entry key="S2" value="7.054484902553373" />
+      <entry key="S5" value="12.323212316589423" />
+      <entry key="S10" value="17.701387824759887" />
+      <entry key="S30" value="27.348330997136177" />
+      <entry key="S60" value="38.03232451053491" />
+      <entry key="M2" value="54.594739870631834" />
+      <entry key="M5" value="88.10992837334354" />
+      <entry key="M10" value="118.16315102400503" />
+      <entry key="M15" value="134.66740254836853" />
+      <entry key="M30" value="157.35961060538264" />
+      <entry key="H1" value="172.10734695605913" />
+      <entry key="H2" value="180.60800786529302" />
+      <entry key="H4" value="185.18511785969625" />
+      <entry key="D1" value="189.18032621158895" />
+      <entry key="W1" value="189.88247345382499" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.4896420558266836E-266" />
-      <entry key="S2" value="5.641296178281353E-67" />
-      <entry key="S5" value="5.3575006169983806E-27" />
-      <entry key="S10" value="1.2478825464152036E-13" />
-      <entry key="S30" value="1.2644654882279816E-4" />
-      <entry key="S60" value="0.025959043460970846" />
-      <entry key="M2" value="0.38821149722371245" />
-      <entry key="M5" value="1.9987165345009028" />
-      <entry key="M10" value="3.460626601259927" />
-      <entry key="M15" value="4.156753721344717" />
-      <entry key="M30" value="4.99366942428916" />
-      <entry key="H1" value="5.473653141132518" />
-      <entry key="H2" value="5.730759726060483" />
-      <entry key="H4" value="5.863827823399136" />
-      <entry key="D1" value="5.977086010275432" />
-      <entry key="W1" value="5.996721178326415" />
+      <entry key="MS500" value="9.139837791366204E-226" />
+      <entry key="S2" value="8.470873510867921E-57" />
+      <entry key="S5" value="7.101626353959276E-23" />
+      <entry key="S10" value="1.6124090713013087E-11" />
+      <entry key="S30" value="6.297541719134735E-4" />
+      <entry key="S60" value="0.05012111873928242" />
+      <entry key="M2" value="0.4486780302535292" />
+      <entry key="M5" value="1.7903663864514587" />
+      <entry key="M10" value="3.438961556356044" />
+      <entry key="M15" value="4.68667925517428" />
+      <entry key="M30" value="6.881615802163328" />
+      <entry key="H1" value="8.606992776968653" />
+      <entry key="H2" value="9.704207331000168" />
+      <entry key="H4" value="10.32496233176079" />
+      <entry key="D1" value="10.883509023278927" />
+      <entry key="W1" value="10.983257910912704" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9719303361440005" />
-      <entry key="MS500" value="1.6487301693638596" />
-      <entry key="S2" value="3.641895379841297" />
-      <entry key="S5" value="5.426924220283708" />
-      <entry key="S10" value="6.49323794610012" />
-      <entry key="S30" value="7.437022807380391" />
-      <entry key="S60" value="7.765983643488559" />
-      <entry key="M2" value="8.750511870567916" />
-      <entry key="M5" value="12.778247593889457" />
-      <entry key="M10" value="16.48129914841506" />
-      <entry key="M15" value="18.258788131962447" />
-      <entry key="M30" value="20.40578101464476" />
-      <entry key="H1" value="21.641524838011982" />
-      <entry key="H2" value="22.30467948202958" />
-      <entry key="H4" value="22.64822237607891" />
-      <entry key="D1" value="22.940790147926805" />
-      <entry key="W1" value="22.99152712881371" />
+      <entry key="MS100" value="1.3437162390856128" />
+      <entry key="MS500" value="3.468803413162411" />
+      <entry key="S2" value="7.046504819248799" />
+      <entry key="S5" value="12.317313878667434" />
+      <entry key="S10" value="17.696904113739613" />
+      <entry key="S30" value="27.344163672742972" />
+      <entry key="S60" value="38.06899918011234" />
+      <entry key="M2" value="55.018075806777446" />
+      <entry key="M5" value="89.87088295029528" />
+      <entry key="M10" value="121.57707563556463" />
+      <entry key="M15" value="139.33298897907127" />
+      <entry key="M30" value="164.2272700273007" />
+      <entry key="H1" value="180.7061385436308" />
+      <entry key="H2" value="190.30774278103723" />
+      <entry key="H4" value="195.50774108146098" />
+      <entry key="D1" value="200.06343015393853" />
+      <entry key="W1" value="200.86567311016768" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,6 +119,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/relak/PycharmProjects/uzduotys/mysite/uzduotys",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,6 +128,11 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\relak\PycharmProjects\uzduotys\mysite\uzduotys" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Mano Uzduotys" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="uzduotys" />
@@ -174,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787914229332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ Pridetas GitIgnore">
+      <option name="closed" value="true" />
+      <created>1787914321072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787914321072</updated>
+    </task>
+    <task id="LOCAL-00003" summary="+ Pridetas urls i uzduotys aplankala">
+      <option name="closed" value="true" />
+      <created>1787914587331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787914587331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ Setingsai padaryti askirai" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Setingsai padaryti askirai" />
+    <MESSAGE value="+ Pridetas GitIgnore" />
+    <MESSAGE value="+ Pridetas urls i uzduotys aplankala" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Pridetas urls i uzduotys aplankala" />
   </component>
 </project>
