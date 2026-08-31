@@ -1,11 +1,14 @@
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AbstractUser
 from django.db import models
+
+import uzduotys
+
 
 class Task(models.Model):
     title = models.CharField(max_length=200)
     content = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
-    author = models.ForeignKey(to = User, on_delete=models.CASCADE)
+    author = models.ForeignKey(to ='uzduotys.CustomUser', on_delete=models.CASCADE)
 
     ORDER_STATUS = (
         ('s' , 'Sukurta'),
@@ -21,11 +24,6 @@ class Task(models.Model):
     def __str__(self):
         return self.title
 
-class TaskContent(models.Model):
-    task = models.ForeignKey(to = Task, on_delete=models.CASCADE)
-    content = models.TextField()
-    date = models.DateTimeField(auto_now_add=True)
-    author = models.ForeignKey(to = User, on_delete=models.CASCADE)
+class CustomUser(AbstractUser):
+    photo = models.ImageField(upload_to='profile_pics', blank=True, null=True)
 
-    def __str__(self):
-        return self.content

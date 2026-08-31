@@ -1,14 +1,18 @@
 from django.contrib import admin
-from .models import Task, TaskContent
+from django.contrib.auth.admin import UserAdmin
 
-class TaskContentInline(admin.TabularInline):
-    model = TaskContent
-    extra = 0
+from .models import Task, CustomUser
+
+
 
 class TaskAdmin(admin.ModelAdmin):
     list_display = ('title', 'date', 'author')
-    inlines = [TaskContentInline]
+
+class CustomUserAdmin(UserAdmin):
+    fieldsets = UserAdmin.fieldsets + (
+    ('Additional Info', {'fields': ('photo',)}),
+    )
 
 
 admin.site.register(Task, TaskAdmin)
-admin.site.register(TaskContent)
+admin.site.register(CustomUser, CustomUserAdmin)

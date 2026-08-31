@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import generic
-from .models import Task, TaskContent
+from .models import Task
 
 class TaskListView(generic.ListView):
     model = Task
