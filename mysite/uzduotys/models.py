@@ -7,6 +7,17 @@ class Task(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(to = User, on_delete=models.CASCADE)
 
+    ORDER_STATUS = (
+        ('s' , 'Sukurta'),
+        ('v' , 'Vykdoma'),
+        ('a' , 'Atšaukta'),
+        ('į' , 'Įvykdyta'),
+    )
+    status = models.CharField(verbose_name="Status", max_length=1, choices=ORDER_STATUS, blank=True, default='s')
+
+    class Meta:
+        ordering = ['-date']
+
     def __str__(self):
         return self.title
 

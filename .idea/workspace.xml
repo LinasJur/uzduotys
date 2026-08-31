@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ Pridetas urls i uzduotys aplankala">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ Admin puslapis padarytas, galima kurti užduotis ir jų turinį. Taip pat registruotas superuser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/uzduotys/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/uzduotys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/uzduotys/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,75 +25,75 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LinasJur"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LinasJur&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LinasJur/uzduotys.git",
-    "accountId": "a00b3477-9dd1-432d-b660-f039f803d221"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LinasJur/uzduotys.git&quot;,
+    &quot;accountId&quot;: &quot;a00b3477-9dd1-432d-b660-f039f803d221&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3736313800847757" />
-      <entry key="MS500" value="3.484547175176459" />
-      <entry key="S2" value="7.054484902553373" />
-      <entry key="S5" value="12.323212316589423" />
-      <entry key="S10" value="17.701387824759887" />
-      <entry key="S30" value="27.348330997136177" />
-      <entry key="S60" value="38.03232451053491" />
-      <entry key="M2" value="54.594739870631834" />
-      <entry key="M5" value="88.10992837334354" />
-      <entry key="M10" value="118.16315102400503" />
-      <entry key="M15" value="134.66740254836853" />
-      <entry key="M30" value="157.35961060538264" />
-      <entry key="H1" value="172.10734695605913" />
-      <entry key="H2" value="180.60800786529302" />
-      <entry key="H4" value="185.18511785969625" />
-      <entry key="D1" value="189.18032621158895" />
-      <entry key="W1" value="189.88247345382499" />
+      <entry key="MS100" value="1.1560413186127014" />
+      <entry key="MS500" value="1.6896804609135303" />
+      <entry key="S2" value="1.9114333704774504" />
+      <entry key="S5" value="2.010449628181399" />
+      <entry key="S10" value="2.388082167171892" />
+      <entry key="S30" value="4.0984402800984405" />
+      <entry key="S60" value="5.669477978922353" />
+      <entry key="M2" value="8.02319681172628" />
+      <entry key="M5" value="12.31652111301927" />
+      <entry key="M10" value="16.53192468020137" />
+      <entry key="M15" value="20.174707434596833" />
+      <entry key="M30" value="32.80859262932927" />
+      <entry key="H1" value="67.85450196690186" />
+      <entry key="H2" value="125.57539868726995" />
+      <entry key="H4" value="181.94234694571762" />
+      <entry key="D1" value="254.59800722052321" />
+      <entry key="W1" value="270.27858869846386" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="9.139837791366204E-226" />
-      <entry key="S2" value="8.470873510867921E-57" />
-      <entry key="S5" value="7.101626353959276E-23" />
-      <entry key="S10" value="1.6124090713013087E-11" />
-      <entry key="S30" value="6.297541719134735E-4" />
-      <entry key="S60" value="0.05012111873928242" />
-      <entry key="M2" value="0.4486780302535292" />
-      <entry key="M5" value="1.7903663864514587" />
-      <entry key="M10" value="3.438961556356044" />
-      <entry key="M15" value="4.68667925517428" />
-      <entry key="M30" value="6.881615802163328" />
-      <entry key="H1" value="8.606992776968653" />
-      <entry key="H2" value="9.704207331000168" />
-      <entry key="H4" value="10.32496233176079" />
-      <entry key="D1" value="10.883509023278927" />
-      <entry key="W1" value="10.983257910912704" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.730031817E-315" />
+      <entry key="S5" value="1.8618540122778173E-126" />
+      <entry key="S10" value="1.3644977297222117E-63" />
+      <entry key="S30" value="1.1116418344773224E-21" />
+      <entry key="S60" value="3.488195419854706E-11" />
+      <entry key="M2" value="7.0271504476135E-6" />
+      <entry key="M5" value="0.012387367627918854" />
+      <entry key="M10" value="0.1556524842812505" />
+      <entry key="M15" value="0.3653058047015573" />
+      <entry key="M30" value="0.9829612743616879" />
+      <entry key="H1" value="2.49357002543481" />
+      <entry key="H2" value="5.221868406396758" />
+      <entry key="H4" value="8.091790259115177" />
+      <entry key="D1" value="11.98653197263813" />
+      <entry key="W1" value="12.84951738116897" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3437162390856128" />
-      <entry key="MS500" value="3.468803413162411" />
-      <entry key="S2" value="7.046504819248799" />
-      <entry key="S5" value="12.317313878667434" />
-      <entry key="S10" value="17.696904113739613" />
-      <entry key="S30" value="27.344163672742972" />
-      <entry key="S60" value="38.06899918011234" />
-      <entry key="M2" value="55.018075806777446" />
-      <entry key="M5" value="89.87088295029528" />
-      <entry key="M10" value="121.57707563556463" />
-      <entry key="M15" value="139.33298897907127" />
-      <entry key="M30" value="164.2272700273007" />
-      <entry key="H1" value="180.7061385436308" />
-      <entry key="H2" value="190.30774278103723" />
-      <entry key="H4" value="195.50774108146098" />
-      <entry key="D1" value="200.06343015393853" />
-      <entry key="W1" value="200.86567311016768" />
+      <entry key="MS100" value="1.0346859631869998" />
+      <entry key="MS500" value="1.6526147406171887" />
+      <entry key="S2" value="1.9008632220030486" />
+      <entry key="S5" value="2.005821382761195" />
+      <entry key="S10" value="2.3827047509437027" />
+      <entry key="S30" value="4.086987919387991" />
+      <entry key="S60" value="5.658466463067384" />
+      <entry key="M2" value="8.012669873812412" />
+      <entry key="M5" value="12.31855938254466" />
+      <entry key="M10" value="16.67757688014359" />
+      <entry key="M15" value="20.530282225562637" />
+      <entry key="M30" value="33.78325280703458" />
+      <entry key="H1" value="70.34148731569294" />
+      <entry key="H2" value="130.7923787978224" />
+      <entry key="H4" value="190.0309484138074" />
+      <entry key="D1" value="266.58384901786485" />
+      <entry key="W1" value="283.1280025883562" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -106,28 +108,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Mano Uzduotys.executor": "Run",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/relak/PycharmProjects/uzduotys/mysite/uzduotys",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Mano Uzduotys.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/relak/PycharmProjects/uzduotys/mysite/uzduotys&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\relak\PycharmProjects\uzduotys\mysite\uzduotys" />
@@ -203,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787914587331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ Admin puslapis padarytas, galima kurti užduotis ir jų turinį. Taip pat registruotas superuser">
+      <option name="closed" value="true" />
+      <created>1787919410170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1787919410170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +234,7 @@
     <MESSAGE value="+ Setingsai padaryti askirai" />
     <MESSAGE value="+ Pridetas GitIgnore" />
     <MESSAGE value="+ Pridetas urls i uzduotys aplankala" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Pridetas urls i uzduotys aplankala" />
+    <MESSAGE value="+ Admin puslapis padarytas, galima kurti užduotis ir jų turinį. Taip pat registruotas superuser" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Admin puslapis padarytas, galima kurti užduotis ir jų turinį. Taip pat registruotas superuser" />
   </component>
 </project>
