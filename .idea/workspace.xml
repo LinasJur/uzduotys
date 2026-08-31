@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ Sukurtas index puslapis, kur matosi užduotys, atskirų užduočių atvaizdavimas taip pat pridėtas">
+    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ Sukūriau customuser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/uzduotys/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/uzduotys/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/uzduotys/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/uzduotys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/uzduotys/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,61 +40,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000008644374152" />
-      <entry key="S5" value="1.0049201195511281" />
-      <entry key="S10" value="1.1289277084739413" />
-      <entry key="S30" value="2.9235354821166886" />
-      <entry key="S60" value="6.070285180996452" />
-      <entry key="M2" value="11.385856177686746" />
-      <entry key="M5" value="23.4384470500959" />
-      <entry key="M10" value="39.35950411126078" />
-      <entry key="M15" value="52.60514415610619" />
-      <entry key="M30" value="83.6957592038741" />
-      <entry key="H1" value="131.41121853182165" />
-      <entry key="H2" value="202.216772961489" />
-      <entry key="H4" value="277.118375294405" />
-      <entry key="D1" value="383.4247830481063" />
-      <entry key="W1" value="407.73388958557825" />
+      <entry key="MS100" value="1.0000000000005678" />
+      <entry key="MS500" value="1.003554839156566" />
+      <entry key="S2" value="1.2441771322405568" />
+      <entry key="S5" value="1.5689603413721653" />
+      <entry key="S10" value="1.7542945985304188" />
+      <entry key="S30" value="1.9102911754011411" />
+      <entry key="S60" value="1.954092508756022" />
+      <entry key="M2" value="1.9776742009114472" />
+      <entry key="M5" value="2.1695922565003865" />
+      <entry key="M10" value="4.089105229208403" />
+      <entry key="M15" value="7.11656236688959" />
+      <entry key="M30" value="15.263874830604763" />
+      <entry key="H1" value="32.48949660829198" />
+      <entry key="H2" value="87.04557962534453" />
+      <entry key="H4" value="190.10162897412414" />
+      <entry key="D1" value="421.94907334975574" />
+      <entry key="W1" value="489.56361345748144" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.7207353224351019E-97" />
-      <entry key="S2" value="6.440632489012956E-25" />
-      <entry key="S5" value="2.1065482514453705E-10" />
-      <entry key="S10" value="1.4515349630799279E-5" />
-      <entry key="S30" value="0.025775921676195915" />
-      <entry key="S60" value="0.20598538756296125" />
-      <entry key="M2" value="0.7062471065698339" />
-      <entry key="M5" value="1.682663072804117" />
-      <entry key="M10" value="2.524391292395327" />
-      <entry key="M15" value="3.08307933470757" />
-      <entry key="M30" value="4.21586780104976" />
-      <entry key="H1" value="5.941349027669205" />
-      <entry key="H2" value="8.870121889672646" />
-      <entry key="H4" value="12.30827810760936" />
-      <entry key="D1" value="17.542561564844096" />
-      <entry key="W1" value="18.781275048189162" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="2.326705770470431E-130" />
+      <entry key="S10" value="2.1235142334401597E-65" />
+      <entry key="S30" value="4.38006455073439E-22" />
+      <entry key="S60" value="2.9679003419386265E-11" />
+      <entry key="M2" value="8.113175749442524E-6" />
+      <entry key="M5" value="0.017883297873782723" />
+      <entry key="M10" value="0.25712951775026893" />
+      <entry key="M15" value="0.6359018457020224" />
+      <entry key="M30" value="1.598197161807508" />
+      <entry key="H1" value="2.8199720374010386" />
+      <entry key="H2" value="5.176054517770169" />
+      <entry key="H4" value="9.412338275324014" />
+      <entry key="D1" value="19.420809559214756" />
+      <entry key="W1" value="22.44058776193572" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709163809315" />
-      <entry key="S2" value="0.9972321130999274" />
-      <entry key="S5" value="1.0037970570340728" />
-      <entry key="S10" value="1.1271532001578926" />
-      <entry key="S30" value="2.9110556279887403" />
-      <entry key="S60" value="6.187089023819721" />
-      <entry key="M2" value="11.983554075703344" />
-      <entry key="M5" value="25.039915194485598" />
-      <entry key="M10" value="41.82835330035814" />
-      <entry key="M15" value="55.64426212291357" />
-      <entry key="M30" value="87.8822434253514" />
-      <entry key="H1" value="137.3332169392235" />
-      <entry key="H2" value="211.074558181047" />
-      <entry key="H4" value="289.4192612900796" />
-      <entry key="D1" value="400.9658424922288" />
-      <entry key="W1" value="426.5149414595445" />
+      <entry key="MS100" value="0.8827029962911457" />
+      <entry key="MS500" value="0.9788083034458593" />
+      <entry key="S2" value="1.236187544674041" />
+      <entry key="S5" value="1.5648141632783692" />
+      <entry key="S10" value="1.7519505522609806" />
+      <entry key="S30" value="1.9094338046630766" />
+      <entry key="S60" value="1.9536531308580156" />
+      <entry key="M2" value="1.9774479257531616" />
+      <entry key="M5" value="2.1867527012476318" />
+      <entry key="M10" value="4.343065220303744" />
+      <entry key="M15" value="7.747502259483937" />
+      <entry key="M30" value="16.855915862556813" />
+      <entry key="H1" value="35.303650969678515" />
+      <entry key="H2" value="92.21578009259736" />
+      <entry key="H4" value="199.50871789541674" />
+      <entry key="D1" value="441.36823382065694" />
+      <entry key="W1" value="512.0039350696949" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -223,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788160071625</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="+ Sukūriau customuser">
+      <option name="closed" value="true" />
+      <created>1788163696121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1788163696121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +253,7 @@
     <MESSAGE value="+ Pridetas urls i uzduotys aplankala" />
     <MESSAGE value="+ Admin puslapis padarytas, galima kurti užduotis ir jų turinį. Taip pat registruotas superuser" />
     <MESSAGE value="+ Sukurtas index puslapis, kur matosi užduotys, atskirų užduočių atvaizdavimas taip pat pridėtas" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Sukurtas index puslapis, kur matosi užduotys, atskirų užduočių atvaizdavimas taip pat pridėtas" />
+    <MESSAGE value="+ Sukūriau customuser" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Sukūriau customuser" />
   </component>
 </project>
