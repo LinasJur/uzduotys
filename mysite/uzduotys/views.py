@@ -63,3 +63,12 @@ class TaskUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView
         return self.get_object().author == self.request.user
 
 
+class TaskDeleteView(LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView):
+    model = Task
+    template_name = 'task_delete.html'
+    context_object_name = 'task'
+    success_url = reverse_lazy('user_tasks')
+
+    def test_func(self):
+        return self.get_object().author == self.request.user
+
