@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ Sukūriau customuser">
+    <list default="true" id="dbfb83c7-80ca-43db-924d-44d11570dc53" name="Changes" comment="+ padarytas prisijungimo atsijungimo puslapiai, registracija">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/uzduotys/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/uzduotys/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/uzduotys/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +38,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000005678" />
-      <entry key="MS500" value="1.003554839156566" />
-      <entry key="S2" value="1.2441771322405568" />
-      <entry key="S5" value="1.5689603413721653" />
-      <entry key="S10" value="1.7542945985304188" />
-      <entry key="S30" value="1.9102911754011411" />
-      <entry key="S60" value="1.954092508756022" />
-      <entry key="M2" value="1.9776742009114472" />
-      <entry key="M5" value="2.1695922565003865" />
-      <entry key="M10" value="4.089105229208403" />
-      <entry key="M15" value="7.11656236688959" />
-      <entry key="M30" value="15.263874830604763" />
-      <entry key="H1" value="32.48949660829198" />
-      <entry key="H2" value="87.04557962534453" />
-      <entry key="H4" value="190.10162897412414" />
-      <entry key="D1" value="421.94907334975574" />
-      <entry key="W1" value="489.56361345748144" />
+      <entry key="MS100" value="7.412204200445287E-10" />
+      <entry key="MS500" value="0.018094761332448403" />
+      <entry key="S2" value="0.5867861510946654" />
+      <entry key="S5" value="1.2191938898291628" />
+      <entry key="S10" value="1.5603640942223955" />
+      <entry key="S30" value="1.8412458325353336" />
+      <entry key="S60" value="1.9501872740336135" />
+      <entry key="M2" value="2.326479919086746" />
+      <entry key="M5" value="4.243923453820215" />
+      <entry key="M10" value="9.415468246324892" />
+      <entry key="M15" value="15.552552401952521" />
+      <entry key="M30" value="31.885405556497112" />
+      <entry key="H1" value="56.399386369362645" />
+      <entry key="H2" value="108.91571745189628" />
+      <entry key="H4" value="211.4255695657257" />
+      <entry key="D1" value="470.82373076496424" />
+      <entry key="W1" value="551.8776602743825" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="2.326705770470431E-130" />
-      <entry key="S10" value="2.1235142334401597E-65" />
-      <entry key="S30" value="4.38006455073439E-22" />
-      <entry key="S60" value="2.9679003419386265E-11" />
-      <entry key="M2" value="8.113175749442524E-6" />
-      <entry key="M5" value="0.017883297873782723" />
-      <entry key="M10" value="0.25712951775026893" />
-      <entry key="M15" value="0.6359018457020224" />
-      <entry key="M30" value="1.598197161807508" />
-      <entry key="H1" value="2.8199720374010386" />
-      <entry key="H2" value="5.176054517770169" />
-      <entry key="H4" value="9.412338275324014" />
-      <entry key="D1" value="19.420809559214756" />
-      <entry key="W1" value="22.44058776193572" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000000024" />
+      <entry key="S30" value="1.0000133422977389" />
+      <entry key="S60" value="1.003652711618366" />
+      <entry key="M2" value="1.0604622822236962" />
+      <entry key="M5" value="1.3398185016132602" />
+      <entry key="M10" value="1.691677735362565" />
+      <entry key="M15" value="1.9507291064489738" />
+      <entry key="M30" value="2.605093536954193" />
+      <entry key="H1" value="3.7990399328296927" />
+      <entry key="H2" value="6.149335047196092" />
+      <entry key="H4" value="10.472483581212773" />
+      <entry key="D1" value="21.71408379312867" />
+      <entry key="W1" value="25.32256147899051" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8827029962911457" />
-      <entry key="MS500" value="0.9788083034458593" />
-      <entry key="S2" value="1.236187544674041" />
-      <entry key="S5" value="1.5648141632783692" />
-      <entry key="S10" value="1.7519505522609806" />
-      <entry key="S30" value="1.9094338046630766" />
-      <entry key="S60" value="1.9536531308580156" />
-      <entry key="M2" value="1.9774479257531616" />
-      <entry key="M5" value="2.1867527012476318" />
-      <entry key="M10" value="4.343065220303744" />
-      <entry key="M15" value="7.747502259483937" />
-      <entry key="M30" value="16.855915862556813" />
-      <entry key="H1" value="35.303650969678515" />
-      <entry key="H2" value="92.21578009259736" />
-      <entry key="H4" value="199.50871789541674" />
-      <entry key="D1" value="441.36823382065694" />
-      <entry key="W1" value="512.0039350696949" />
+      <entry key="MS100" value="3.664689555463348E-8" />
+      <entry key="MS500" value="0.05037802973864849" />
+      <entry key="S2" value="1.0098041899471102" />
+      <entry key="S5" value="1.9277828587931873" />
+      <entry key="S10" value="2.4020829990610046" />
+      <entry key="S30" value="2.785423726826205" />
+      <entry key="S60" value="2.925298950144466" />
+      <entry key="M2" value="3.3707803207779836" />
+      <entry key="M5" value="5.573579602631478" />
+      <entry key="M10" value="11.099542573945008" />
+      <entry key="M15" value="17.496788048954848" />
+      <entry key="M30" value="34.485062795854965" />
+      <entry key="H1" value="60.193314618050074" />
+      <entry key="H2" value="115.05976077587897" />
+      <entry key="H4" value="221.89303102571432" />
+      <entry key="D1" value="492.53608430215246" />
+      <entry key="W1" value="577.1999368434899" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -230,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788163696121</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="+ padarytas prisijungimo atsijungimo puslapiai, registracija">
+      <option name="closed" value="true" />
+      <created>1788179933351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1788179933351</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +260,7 @@
     <MESSAGE value="+ Admin puslapis padarytas, galima kurti užduotis ir jų turinį. Taip pat registruotas superuser" />
     <MESSAGE value="+ Sukurtas index puslapis, kur matosi užduotys, atskirų užduočių atvaizdavimas taip pat pridėtas" />
     <MESSAGE value="+ Sukūriau customuser" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Sukūriau customuser" />
+    <MESSAGE value="+ padarytas prisijungimo atsijungimo puslapiai, registracija" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ padarytas prisijungimo atsijungimo puslapiai, registracija" />
   </component>
 </project>
