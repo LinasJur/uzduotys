@@ -1,7 +1,7 @@
 from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.shortcuts import render
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 from django.views import generic
 from .models import Task
 from .forms import  UserChangeForm, CustomUserCreateForm
@@ -50,5 +50,16 @@ class TaskCreateView(LoginRequiredMixin, generic.CreateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+class TaskUpdateView(LoginRequiredMixin, UserPassesTestMixin, generic.UpdateView, ):
+    model = Task
+    fields = ['title', 'content', 'status']
+    template_name = 'task_create.html'
+
+    def get_success_url(self):
+        return reverse('task', kwargs={'pk': self.object.pk})
+
+    def test_func(self):
+        return self.get_object().author == self.request.user
 
 
