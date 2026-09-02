@@ -1,5 +1,6 @@
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.db.models import Q
 from django.shortcuts import render
 from django.urls import reverse_lazy, reverse
 from django.views import generic
@@ -76,3 +77,16 @@ class TaskDeleteView(LoginRequiredMixin, UserPassesTestMixin, generic.DeleteView
     def test_func(self):
         return self.get_object().author == self.request.user
 
+
+def search (request):
+    query = request.GET.get('query')
+    tasks = Task.objects.filter(
+        author=request.user).filter(
+        Q(title__icontains=query) |
+        Q(content__icontains=query)
+    )
+    context = {
+        'query': query,
+        'tasks': tasks
+    }
+    return render(request, template_name='search.html', context=context)
