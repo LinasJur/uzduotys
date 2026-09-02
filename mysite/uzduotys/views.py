@@ -22,7 +22,11 @@ class UserTaskListView(LoginRequiredMixin, generic.ListView):
     context_object_name = 'tasks'
 
     def get_queryset(self):
-        return Task.objects.filter(author=self.request.user)
+        tasks = Task.objects.filter(author=self.request.user)
+        status = self.request.GET.get('status')
+        if status:
+            tasks = tasks.filter(status=status)
+        return tasks
 
 class SignUpView(generic.CreateView):
     form_class = CustomUserCreateForm

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %} Mano užduotys {% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col"></div>
+    <div class="col text-center mb2">
+        <a href="{% url 'task_create' %}" class="btn btn-primary btn-sm"> Kurti naują užduotį </a>
+        <button type="button" class="btn btn-primary dropdown-toggle btn-sm" data-bs-toggle="dropdown">
+            Rūšiuoti pagal
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="?status=s">Sukurta</a></li>
+            <li><a class="dropdown-item" href="?status=v">Vykdoma</a></li>
+            <li><a class="dropdown-item" href="?status=a">Atšaukta</a></li>
+            <li><a class="dropdown-item" href="?status=į">Įvykdyta</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{% url 'user_tasks' %}">Visos užduotys</a></li>
+        </ul>
+    </div>
+    <div class="col"></div>
+</div>
+
+
+
+
+
+
+{% for task in tasks %}
+
+<p>
+    <a href="{% url 'task' task.pk %}">
+        {{ task.title }}
+    </a>
+</p>
+<p><b>Užduotis sukurta</b> {{ task.date }}</p>
+
+{% endfor %}
+{% endblock %}
